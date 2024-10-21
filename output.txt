@@ -1,0 +1,30 @@
+Launching browser...
+Browser launched successfully
+Searching for: property management London
+Waiting for results to load...
+Results loaded
+Starting to scroll to bottom...
+Scrolled to 7 results
+Scrolled to 14 results
+Scrolled to 20 results
+Scrolled to 27 results
+Scrolled to 34 results
+Error at googleMaps: Error: Execution context was destroyed
+    at #waitForExecutionContext (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:73:23)
+    at IsolatedWorld.evaluate (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:98:58)
+    at CdpFrame.evaluate (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:341:43)
+    at CdpFrame.<anonymous> (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:104:27)
+    at CdpPage.evaluate (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:807:43)
+    at scrollToBottom (file:///Users/leo/Desktop/Developments/my-puppeteer-project/googleMapsScraper.js:127:41)
+    at async searchGoogleMaps (file:///Users/leo/Desktop/Developments/my-puppeteer-project/googleMapsScraper.js:56:9)
+Error stack: Error: Execution context was destroyed
+    at #waitForExecutionContext (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:73:23)
+    at IsolatedWorld.evaluate (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:98:58)
+    at CdpFrame.evaluate (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Frame.js:341:43)
+    at CdpFrame.<anonymous> (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:104:27)
+    at CdpPage.evaluate (/Users/leo/Desktop/Developments/my-puppeteer-project/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:807:43)
+    at scrollToBottom (file:///Users/leo/Desktop/Developments/my-puppeteer-project/googleMapsScraper.js:127:41)
+    at async searchGoogleMaps (file:///Users/leo/Desktop/Developments/my-puppeteer-project/googleMapsScraper.js:56:9)
+Closing browser...
+Browser closed
+Businesses found:
